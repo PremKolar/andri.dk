@@ -1,15 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `andri.dk`,
+    title: `TODO.com`,
     description:
-      "I make websites, create apps, manage infrastructure, develop products and more.",
+      "TODO",
     siteUrl:
       process.env.NODE_ENV === "production"
         ? "https://andri.dk"
         : "http://localhost:8000",
-    author: "Andri Óskarsson",
-    social: {
-      twitter: "andrioid",
+    author: "Nikolaus Koopmann",
+    social: {     
     },
   },
   plugins: [

@@ -9,8 +9,7 @@ export function SkillDataTransform({ workSkills, rootSkills, children }) {
       const nk = c.keywords
         .map((k) => {
           return {
-            name: k,
-            // score is currently just duration
+            name: k, // score is currently just duration
             score: (workSkills && durationForSkill(workSkills, k)) || 0,
           };
         })
