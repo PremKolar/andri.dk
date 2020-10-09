@@ -1,26 +1,26 @@
 {
   "basics": {
     "name": "Nikolaus Koopmann",
-    "label": "Computer Engineer",
-    "picture": "https://andri.dk/static/3a12aa0364d1851eaab41841f8a12b88/284df/coffee-art.jpg",
-    "email": "m@andri.dk",
-    "website": "https://andri.dk",
-    "summary": "Driven, independent Software Developer with a broad skill set.",
+    "label": "Developper",
+    "picture": "URLtoJPG",
+    "email": "nikolauskoopmann@gmail.com",
+    "website": "TODO",
+    "summary": "Oceanographer looking for a Job in Computer Science.",
     "location": {
-      "city": "Aalborg",
-      "countryCode": "DK",
-      "region": "Nordjylland"
+      "city": "Hamburg",
+      "countryCode": "DE",
+      "region": "Hamburg"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "andrioid",
-        "url": "https://twitter.com/andrioid"
+        "username": "TODO",
+        "url": "TODO"
       },
       {
         "network": "Github",
-        "username": "andrioid",
-        "url": "https://github.com/andrioid"
+        "username": "PremKolar",
+        "url": "https://github.com/PremKolar"
       },
       {
         "network": "LinkedIn",
