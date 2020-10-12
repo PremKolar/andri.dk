@@ -37,9 +37,7 @@
       "startDate": "2010-10",
       "endDate": "2011-06",
       "summary": "Visualization of climate-model output.",
-      "highlights": [
-        "Introduction to Python",
-        "Introduction to Shell-scripting"
+      "highlights": [       
       ],
       "skills": ["Python", "Bash", "Linux"]
     },
@@ -170,17 +168,26 @@
         "GraphQL",
         "Gatsby"
       ]
+    },
+    {
+      "what": "Open-Source Contribution",
+      "summary": "Improved JabRef's DOI-detection. TODO link",
+      "startDate": "2020-09-21",
+      "endDate": "2020-10-01",
+      "technologies": [
+        "Java"
+      ]
     }
   ],
   "classes": [
     {
       "name": "Scientific Computing I",
-      "startDate": "2018",
+      "startDate": "2012",
       "technologies": ["FORTRAN", "OpenMp/MPI"]
     },
     {
       "name": "Scientific Computing IV",
-      "startDate": "2019",
+      "startDate": "2013",
       "technologies": ["C", "OpenMp/MPI"]
     },
     {

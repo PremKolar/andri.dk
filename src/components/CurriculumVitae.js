@@ -36,6 +36,7 @@ const CurriculumVitae = ({ data }) => {
             ? value.highlights.map((txt) => <div>{" • " + txt}</div>)
             : null}
         </p>
+        <p>{makeTechnoItems(value.skills)}</p>
       </VerticalTimelineElement>
     );
   }
@@ -92,11 +93,7 @@ const CurriculumVitae = ({ data }) => {
     items.push(
       <VerticalTimelineElement
         className={"vertical-timeline-element--clss" + index}
-        date={
-          value.endDate
-            ? value.startDate + " - " + value.endDate
-            : value.startDate + " - ongoing"
-        }
+        date={value.startDate}
         iconStyle={{ background: "#9b8654", color: "#fff" }}
         icon={<LocalLibraryIcon />}
       >

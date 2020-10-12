@@ -65,6 +65,7 @@ const AboutPage = ({ data }) => (
           </li>
           <li>I have lots of experience in visualizing data.</li>
           <li>I have sound experience in git and Kanban.</li>
+          <li>I can work with databases.</li>
         </ol>
       </p>
       <br />
