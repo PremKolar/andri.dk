@@ -4,7 +4,7 @@ import { Card } from "../components/card";
 const ArticleList = ({ posts }) => (
   <div className="flex flex-wrap justify-start items-stretch">
     {posts
-      .filter(post => post.node.frontmatter.title.length > 0)
+      .filter((post) => post.node.frontmatter.title.length > 0)
       .map(({ node: post }) => {
         return (
           <Card
