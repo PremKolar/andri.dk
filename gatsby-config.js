@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `TODO.com`,
+    title: `Nikos CV`,
     description:
       "TODO",
     siteUrl:

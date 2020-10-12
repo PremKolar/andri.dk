@@ -21,11 +21,12 @@ const FrontHeader = ({data}) => {
         }}
       >
         <nav className="flex items-end justify-end justify-between items-center p-8">
-          <img
+          {/* <img
             alt="round profile"
             src={andratar}
             className="rounded-full shadow-2xl w-16 h-16 md:invisible"
-          />
+          /> */}
+          <div></div>
           <div  align="right">
             <ul className="flex flex-row">
               {/* <NavLink href="blog/">Blog</NavLink> */}
