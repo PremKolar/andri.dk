@@ -68,5 +68,5 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 
 exports.onPostBuild = () => {
-  cp.execSync("npm run build-cv");
+  // cp.execSync("npm run build-cv");
 };
