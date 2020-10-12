@@ -68,7 +68,7 @@
       "startDate": "2013-11",
       "endDate": "2015-05",
       "summary": "Design and implementation of an ocean-eddy-detection and -tracking algorithm.",
-      "skills": ["Matlab", "Bash", "Linux","Latex"]
+      "skills": ["Matlab", "Bash", "Linux", "Latex"]
     },
     {
       "company": "Dep. of Theoretical Oceanography, ZMAW",
@@ -77,7 +77,7 @@
       "startDate": "2015-06",
       "endDate": "2015-08",
       "summary": "Collaboration on the paper mentioned in section Publications. (limited to 3 months)",
-      "skills": ["Matlab", "Bash", "Linux","Latex"]
+      "skills": ["Matlab", "Bash", "Linux", "Latex"]
     },
     {
       "company": "Lufthansa Technik, Dep. Engine Engineering",
@@ -90,11 +90,11 @@
         "Full-Stack development of new tools",
         "Procedural → OOP rewriting/refactoring"
       ],
-      "skills": ["Matlab","Oracle Database"]
+      "skills": ["Matlab", "Oracle Database"]
     }
   ],
   "volunteer": [
-    {      
+    {
       "organization": "TODO opensource!",
       "position": "Co-host",
       "website": "https://www.meetup.com/Aalborg-React-React-Native-Meetup/",
@@ -117,7 +117,7 @@
       "studyType": "B.Sc.",
       "minor": "Meteorology",
       "startDate": "2008",
-      "endDate": "2011",      
+      "endDate": "2011",
       "grade": "1.99",
       "thesis": "Numerical Reconstruction of the Stommel/Munk Approach to Explain the Westward Intensification of Wind-Driven Ocean Currents",
       "thesislink": "https://drive.google.com/file/d/0B1wN06WMAqAqWHBtRlBWUGd6SVU/view"
@@ -128,7 +128,7 @@
       "studyType": "M.Sc.",
       "minor": "Computing in Science",
       "startDate": "2011",
-      "endDate": "2015",      
+      "endDate": "2015",
       "grade": "1.21",
       "thesis": "A Global Analysis of Mesoscale Eddy Dynamics via a Surface-Signature-Based Tracking Algorithm",
       "thesislink": "https://drive.google.com/file/d/0B1wN06WMAqAqd3dIQWFuRjB5X2s/view"
@@ -139,7 +139,7 @@
       "studyType": "B.Sc.",
       "minor": "Physics",
       "startDate": "2014",
-      "endDate": "2019",      
+      "endDate": "2019",
       "grade": "not finished"
     },
     {
@@ -156,10 +156,7 @@
       "summary": "Helped a friend making his business simpler.",
       "startDate": "2020-09-21",
       "endDate": "2020-10-05",
-      "technologies": [
-        "Java",
-        "Swing"
-      ]
+      "technologies": ["Java", "Swing"]
     },
     {
       "what": "Creating this webpage",
@@ -173,6 +170,63 @@
         "GraphQL",
         "Gatsby"
       ]
+    }
+  ],
+  "classes": [
+    {
+      "name": "Scientific Computing I",
+      "startDate": "2018",
+      "technologies": ["FORTRAN", "OpenMp/MPI"]
+    },
+    {
+      "name": "Scientific Computing IV",
+      "startDate": "2019",
+      "technologies": ["C", "OpenMp/MPI"]
+    },
+    {
+      "name": "Software Development I",
+      "startDate": "2014",
+      "technologies": ["Java", "git"]
+    },
+    {
+      "name": "Software Development II",
+      "startDate": "2017",
+      "technologies": ["Java", "git"]
+    },    
+    {
+      "name": "Databases",
+      "startDate": "2017",
+      "technologies": ["SQL"]
+    },    
+    {
+      "name": "Algorithms and Data-Structures",
+      "startDate": "2017",
+      "technologies": []
+    },    
+    {
+      "name": "Ocean Modelling",
+      "startDate": "2010",
+      "technologies": ["FORTRAN","Python"]
+    },    
+    {
+      "name": "numerical tracer transport simulation",
+      "startDate": "2010",
+      "technologies": ["Matlab"]
+    },    
+    {
+      "name": "open source scripting for geoscientific data analysis",
+      "startDate": "2009",
+      "technologies": ["Python"]
+    },    
+    {
+      "name": "numerical methods in geo-sciences",
+      "startDate": "2009",
+      "technologies": ["FORTRAN"]
+    },    
+    {
+      "name": "data handling and programming in geo-sciences",
+      "startDate": "2009",
+      "technologies": ["Matlab","Python"]
     }
   ],
   "skills": [

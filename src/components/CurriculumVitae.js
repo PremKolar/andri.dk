@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
+import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import Link from "gatsby-link";
 
 const CurriculumVitae = ({ data }) => {
@@ -83,6 +84,29 @@ const CurriculumVitae = ({ data }) => {
       </VerticalTimelineElement>
     );
   }
+
+  const clss = data.cvJson.classes;
+  for (var [index, value] of clss.entries()) {
+    dict[c] = getDateNum(value.startDate);
+    c++;
+    items.push(
+      <VerticalTimelineElement
+        className={"vertical-timeline-element--clss" + index}
+        date={
+          value.endDate
+            ? value.startDate + " - " + value.endDate
+            : value.startDate + " - ongoing"
+        }
+        iconStyle={{ background: "#9b8654", color: "#fff" }}
+        icon={<LocalLibraryIcon />}
+      >
+        <h3 className="vertical-timeline-element-title">University Course</h3>
+        <p>{value.name}</p>
+        <p>{makeTechnoItems(value.technologies)}</p>
+      </VerticalTimelineElement>
+    );
+  }
+
 
   items = items.sort(function (a, b) {
     return dict[items.indexOf(a)] - dict[items.indexOf(b)];

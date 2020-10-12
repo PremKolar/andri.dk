@@ -117,6 +117,11 @@ export const query = graphql`
         thesis
         thesislink
       }
+      classes{
+        name
+        startDate
+        technologies
+      }
       projects {
         what
         summary
