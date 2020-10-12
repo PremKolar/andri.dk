@@ -1,13 +1,12 @@
 import React from "react";
-import andratar from "../../static/img/goldenIndo.jpg";
+import andratar from "../../static/img/niko.jpg";
 
-const FrontHeader = (data) => {
-
+const FrontHeader = ({data}) => {
   return (
     <div
       className="flex flex-col font-sans md:min-h-one-third-screen text-white bg-blue-700 bg-fixed"
       style={{
-        background: `url(${require("../../static/img/goldenIndo.jpg")})`,
+        background: `url(${require("../../static/img/goldenIndo_smaller.png")})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundBlendMode: "darken",
@@ -15,16 +14,16 @@ const FrontHeader = (data) => {
     >
       <div
         style={{
-          backgroundColor: "rgba(0, 0, 0, 0.33)",
+          backgroundColor: "rgba(0, 0, 0, .4)",
           flex: 1,
         }}
       >
         <nav className="flex items-end justify-end justify-between items-center p-8">
-          <img
-            alt="round profile"
-            src={andratar}
-            className="rounded-full shadow-2xl w-16 h-16 md:invisible"
-          />
+          {/* <img
+            // alt="round profile"
+            // src={andratar}
+            // className="rounded-full shadow-2xl w-16 h-16 md:invisible"
+          /> */}
           <div>
             <ul className="flex flex-row">
               {/* <NavLink href="blog/">Blog</NavLink>
@@ -41,12 +40,11 @@ const FrontHeader = (data) => {
             </h2>
             <div className="text-lg md:text-2xl">
               <p>
-                Computer Engineer from               
+                Hamburg            
               </p>
               <p>&nbsp;</p>
               <p>
-                I make websites, create apps, manage infrastructure, develop
-                products and more.
+                {data.cvJson.basics.summary}
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import ArticleList from "../subs/ArticleList";
+import ArticleList from "../components/ArticleList";
 import Link from "gatsby-link";
 const LatestPosts = ({data}) => {
   return (

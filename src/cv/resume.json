@@ -5,7 +5,7 @@
     "picture": "URLtoJPG",
     "email": "nikolauskoopmann@gmail.com",
     "website": "TODO",
-    "summary": "Oceanographer looking for a Job in Computer Science.",
+    "summary": "Physical Oceanographer looking for a Job in Computer Science.",
     "location": {
       "city": "Hamburg",
       "countryCode": "DE",
@@ -24,165 +24,78 @@
       },
       {
         "network": "LinkedIn",
-        "username": "andriosk",
-        "url": "https://www.linkedin.com/in/andriosk/"
+        "username": "Nikolaus Koopmann",
+        "url": "https://www.linkedin.com/in/nikolaus-koopmann-447444107/"
       }
     ]
   },
   "work": [
     {
-      "company": "Venue POS A/S",
-      "position": "Lead Software Developer",
-      "website": "https://www.venuepos.net",
-      "startDate": "2020-01-01",
-      "summary": "Leading a team, building the next generation of Point-Of-Sale systems.",
-      "skills": ["React", "React Native", "Docker", "Postgres", "TypeScript"]
-    },
-    {
-      "company": "Redia A/S",
-      "position": "Senior Software Developer",
-      "website": "https://www.redia.dk",
-      "startDate": "2019-05-01",
-      "endDate": "2019-12-31",
-      "summary": "Helped to create a teaching platform for a large publisher. Pitched and developed an image-scaling microservice.",
-      "skills": [
-        "React",
-        "TypeScript",
-        "Docker",
-        "Firebase",
-        "Go",
-        "Microservices",
-        "React Native",
-        "Serverless",
-        "Postgres"
-      ]
-    },
-    {
-      "company": "PARKPARK A/S",
-      "position": "Tech Lead",
-      "website": "https://parkpark.dk",
-      "startDate": "2017-01-01",
-      "endDate": "2019-05-01",
-      "summary": "Pitched, developed and delivered a new user-focused app. Moved our infrastructure from a single server to full redundancy in Google Cloud. Ran in-house development, trained new employees, managed our infrastructure, coordinated with freelancers and did full-stack software development.",
+      "company": "KLIWAS, Max-Planck-Institut",
+      "position": "Research Assistant",
+      "website": "https://www.kliwas.de/KLIWAS/EN/01_About_Kliwas/about_kliwas_node.html",
+      "startDate": "2010-10",
+      "endDate": "2011-06",
+      "summary": "Visualization of climate-model output.",
       "highlights": [
-        "Pitched, developed and shipped our new app",
-        "Migrated our infrastructure to a managed Kubernetes environment"
+        "Introduction to Python",
+        "Introduction to Shell-scripting"
       ],
-      "skills": [
-        "React",
-        "React Native",
-        "PHP",
-        "Go",
-        "JavaScript",
-        "MySQL",
-        "Kubernetes",
-        "Docker",
-        "Linux"
-      ]
+      "skills": ["Python", "Bash", "Linux"]
     },
     {
-      "company": "UVData A/S (now KMD)",
-      "position": "Senior Developer",
-      "startDate": "2015-11-01",
-      "endDate": "2017-01-01",
-      "summary": "I managed releases, did frontend development and was a Scrum-Master on \"Min Uddannelse\", a large learning platform. I helped introduce React to the organisation, did internal training and helped with recruiting.",
+      "company": "Institut für Meereskunde",
+      "position": "Research Assistant",
+      "website": "https://www.ifm.uni-hamburg.de/en/institute/staff/gade.html",
+      "startDate": "2011-08",
+      "endDate": "2012-08",
+      "summary": "Calculation of carbon exchange rates from wind-scatterometry products.",
+      "skills": ["Python", "Matlab", "Latex", "Bash", "cron", "Linux"]
+    },
+    {
+      "company": "MSM28 on Maria S. Merian",
+      "position": "Research Assistant",
+      "website": "https://www.ldf.uni-hamburg.de/en/merian/wochenberichte/wochenberichte-merian/msm26-msm28/msm28-scr.pdf",
+      "startDate": "2013-05",
+      "endDate": "2013-06",
+      "summary": "Scientific Nautical Voyage.",
+      "skills": ["Matlab"]
+    },
+    {
+      "company": "Dep. of Theoretical Oceanography, ZMAW",
+      "position": "Research Assistant",
+      "website": "https://www.ifm.uni-hamburg.de/workareas/theoretical.html",
+      "startDate": "2013-11",
+      "endDate": "2015-05",
+      "summary": "Design and implementation of an ocean-eddy-detection and -tracking algorithm.",
+      "skills": ["Matlab", "Bash", "Linux","Latex"]
+    },
+    {
+      "company": "Dep. of Theoretical Oceanography, ZMAW",
+      "position": "Research Associate",
+      "website": "https://www.ifm.uni-hamburg.de/workareas/theoretical.html",
+      "startDate": "2015-06",
+      "endDate": "2015-08",
+      "summary": "Collaboration on the paper mentioned in section Publications. (limited to 3 months)",
+      "skills": ["Matlab", "Bash", "Linux","Latex"]
+    },
+    {
+      "company": "Lufthansa Technik, Dep. Engine Engineering",
+      "position": "Matlab Developer",
+      "website": "https://www.lufthansa-technik.com/aircraft-engines",
+      "startDate": "2018-03",
+      "endDate": "2020-09",
       "highlights": [
-        "Managed releases and handled deployment pipelines",
-        "Scrum-master on MinUddannelse",
-        "Helped to introduce React to the organization"
+        "Maintenance of internal software",
+        "Full-Stack development of new tools",
+        "Procedural → OOP rewriting/refactoring"
       ],
-      "skills": ["React", "DevOps", "JavaScript", "CSS", "HTML", "jQuery"]
-    },
-    {
-      "company": "M1 A/S (later TDC)",
-      "position": "System Developer",
-      "startDate": "2012-03-01",
-      "endDate": "2015-11-01",
-      "summary": "Worked on an internal billing and CRM system as a part of the backend team. I pitched a delivered an automatic plan-upgrade system for usage-warnings that was generating revenue.",
-      "highlights": [
-        "Pitched and delivered automatic product upgrades with usage-warning SMS to customers."
-      ],
-      "skills": ["PHP", "MySQL", "Linux", "jQuery", "Docker", "JavaScript"]
-    },
-    {
-      "company": "Lyngsø Systems A/S",
-      "position": "Software Developer",
-      "startDate": "2013-03-01",
-      "endDate": "2013-06-01",
-      "summary": "Worked on automatic sorting machines for a large, American clothing store.",
-      "skills": ["Java", "Linux", "Windows"]
-    },
-
-    {
-      "company": "Sprettur ehf (now Kolibri)",
-      "position": "Software Developer / Intern",
-      "startDate": "2011-03-01",
-      "endDate": "2011-07-01",
-      "summary": "Worked closely with one of our customers on creating a shipping calculator for their website, and a reverse-engineered thermal printer solution.",
-      "skills": ["C#", "ASP.NET", "Windows"]
-    },
-    {
-      "company": "Aalborg University",
-      "website": "https://aau.dk",
-      "position": "Student Developer",
-      "startDate": "2009-06-01",
-      "endDate": "2009-08-01",
-      "summary": "Developed an Android app and a backend that used geolocation to provide the users with location-aware ads.",
-      "skills": ["Java", "Python", "Django", "XML", "Android", "HTML", "CSS"]
-    },
-    {
-      "company": "Calidris (now Sabre)",
-      "position": "Systems Administrator",
-      "startDate": "2004-01-01",
-      "endDate": "2006-07-01",
-      "summary": "Managed our systems and network. Supported our developers. Built our VoIP PBX.",
-      "skills": ["Linux", "Asterisk", "Cisco"]
-    },
-    {
-      "company": "Hringiðan ehf",
-      "website": "https://www.vortex.is",
-      "position": "Systems Administrator",
-      "startDate": "2002-01-01",
-      "endDate": "2004-01-01",
-      "summary": "Managed servers, routers and switches. Customer support.",
-      "skills": ["Linux", "Windows Server", "Active Directory"]
-    },
-    {
-      "company": "Þrívíddarmiðlun ehf (now Hugsandi Menn)",
-      "position": "Web Developer",
-      "startDate": "2001-11-01",
-      "endDate": "2002-01-01",
-      "summary": "Created custom CMS systems for cinemas and real-estate brokers.",
-      "skills": ["PHP", "MySQL", "HTML", "CSS"]
-    },
-    {
-      "company": "Titan hf (now Vodafone)",
-      "position": "Network Technician",
-      "startDate": "2000-01-01",
-      "endDate": "2001-01-01",
-      "summary": "Installed and supported our B2B customers with DSL and fiber connections. Did some minor system administration as well.",
-      "skills": ["Cisco", "DSL", "Telco", "AIX"]
-    },
-    {
-      "company": "Firmanet ehf",
-      "position": "Web Developer",
-      "startDate": "1999-01-01",
-      "endDate": "2000-01-01",
-      "summary": "Custom PHP solutions for our customers.",
-      "skills": ["PHP", "MySQL", "HTML", "CSS"]
-    },
-    {
-      "company": "Frisk Software ehf",
-      "position": "Tester",
-      "startDate": "1998-01-01",
-      "endDate": "1999-01-01",
-      "summary": "Tested releases, collected binaries on the Internet for a false-positive database. Did some minor web development.",
-      "skills": ["PHP", "MySQL", "Testing"]
+      "skills": ["Matlab","Oracle Database"]
     }
   ],
   "volunteer": [
-    {
-      "organization": "Aalborg React Meetup",
+    {      
+      "organization": "TODO opensource!",
       "position": "Co-host",
       "website": "https://www.meetup.com/Aalborg-React-React-Native-Meetup/",
       "startDate": "2016-12-13",
@@ -191,32 +104,75 @@
   ],
   "education": [
     {
-      "institution": "Aalborg University",
-      "area": "Computer Engineering",
-      "studyType": "BSc",
-      "startDate": "2007-08-01",
-      "endDate": "2012-03-01"
+      "institution": "Gymnasium",
+      "studyType": "Abitur",
+      "startDate": "1995",
+      "endDate": "2005",
+      "grade": "2.7",
+      "info": "LK Mathe/Physik"
     },
     {
-      "institution": "J.B. Rainsberger / Sprettur ehf",
-      "area": "Test Driven Development",
-      "studyType": "Course",
-      "startDate": "2012-05-01",
-      "endDate": "2012-05-01"
+      "institution": "Uni Hamburg",
+      "area": "Oceanography",
+      "studyType": "B.Sc.",
+      "minor": "Meteorology",
+      "startDate": "2008",
+      "endDate": "2011",      
+      "grade": "1.99",
+      "thesis": "Numerical Reconstruction of the Stommel/Munk Approach to Explain the Westward Intensification of Wind-Driven Ocean Currents",
+      "thesislink": "https://drive.google.com/file/d/0B1wN06WMAqAqWHBtRlBWUGd6SVU/view"
     },
     {
-      "institution": "J.B. Rainsberger / Sprettur ehf",
-      "area": "Agile Design",
-      "studyType": "Course",
-      "startDate": "2012-05-02",
-      "endDate": "2012-05-03"
+      "institution": "Uni Hamburg",
+      "area": "Physical Oceanography",
+      "studyType": "M.Sc.",
+      "minor": "Computing in Science",
+      "startDate": "2011",
+      "endDate": "2015",      
+      "grade": "1.21",
+      "thesis": "A Global Analysis of Mesoscale Eddy Dynamics via a Surface-Signature-Based Tracking Algorithm",
+      "thesislink": "https://drive.google.com/file/d/0B1wN06WMAqAqd3dIQWFuRjB5X2s/view"
     },
     {
-      "institution": "Aalborg University",
-      "area": "Engineering Entrance",
-      "studyType": "Course",
-      "startDate": "2006-08-01",
-      "endDate": "2007-08-01"
+      "institution": "Uni Hamburg",
+      "area": "Computing in Science",
+      "studyType": "B.Sc.",
+      "minor": "Physics",
+      "startDate": "2014",
+      "endDate": "2019",      
+      "grade": "not finished"
+    },
+    {
+      "institution": "University of Hawai’i at Manoa",
+      "area": "Exchange Semester",
+      "minor": "Physics",
+      "startDate": "2012-09",
+      "endDate": "2013-02"
+    }
+  ],
+  "projects": [
+    {
+      "what": "Fleamarket Software",
+      "summary": "Helped a friend making his business simpler.",
+      "startDate": "2020-09-21",
+      "endDate": "2020-10-5",
+      "technologies": [
+        "Java",
+        "Swing"
+      ]
+    },
+    {
+      "what": "Creating this webpage",
+      "summary": "...learning web dev...",
+      "startDate": "2020-10-07",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "GraphQL",
+        "Gatsby"
+      ]
     }
   ],
   "skills": [

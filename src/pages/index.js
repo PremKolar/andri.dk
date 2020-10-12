@@ -2,11 +2,11 @@ import React from "react";
 import { graphql } from "gatsby";
 import { Layout } from "../layouts/layout";
 import { SEO } from "../components/seo";
-import FrontHeader from "../subs/FrontHeader";
-import LatestPosts from "../subs/LatestPosts";
-import Technology from "../subs/Technology";
-import Footer from "../subs/Footer";
-import Experience from "../subs/Experience";
+import FrontHeader from "../components/FrontHeader";
+import LatestPosts from "../components/LatestPosts";
+import Technology from "../components/Technology";
+import Footer from "../components/Footer";
+import CurriculumVitae from "../components/CurriculumVitae";
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,13 +16,13 @@ const IndexPage = ({ data }) => (
     <Section title="Latest Posts">
       <LatestPosts data={data} />
     </Section>
-    <Section title="Technology" bgColorLevel={100}>
+    <Section title="Curriculum Vitae">
+      <CurriculumVitae data={data} />
+    </Section>
+    {/* <Section title="Technology" bgColorLevel={100}>
       <Technology data={data} />
-    </Section>
-    <Section title="Experience" bgColorLevel={100}>
-      <Experience data={data} />
-    </Section>
-    <Footer />
+    </Section> */}
+    <Footer data={data} />
   </Layout>
 );
 
@@ -41,15 +41,15 @@ const IndexPage = ({ data }) => (
 //   </div>
 // );
 
-
 const Section = ({
   children,
-  title,
-  bgColorBase = "gray",
-  bgColorLevel = 200,
+  title
 }) => (
   <div
-    className={`md:px-20 lg:px-40 text-xl bg-${bgColorBase}-${bgColorLevel} py-6`}
+    className={`md:px-20 lg:px-40 text-xl py-6`}
+    style={{
+      backgroundColor: "#f7f2d9"
+    }}
   >
     <h2 className="font-headline ml-6 md:ml-0 font-semibold text-xl md:text-2xl uppercase">
       {title}
@@ -74,7 +74,6 @@ export const query = graphql`
             date(formatString: "YYYY-MM-DD")
             path
             tags
-            draft
             cover {
               publicURL
               childImageSharp {
@@ -94,6 +93,11 @@ export const query = graphql`
       }
     }
     cvJson {
+      basics {
+        name
+        summary
+        website
+      }
       skills {
         name
         level
@@ -105,6 +109,27 @@ export const query = graphql`
         startDate
         endDate
         skills
+        highlights
+        summary
+        website
+        position
+      }
+      education {
+        institution
+        area
+        studyType
+        startDate
+        endDate
+        grade
+        thesis
+        thesislink
+      }
+      projects {
+        what
+        summary
+        startDate
+        endDate
+        technologies
       }
     }
   }

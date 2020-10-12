@@ -1,11 +1,10 @@
 import React from "react";
 import { Twitter, LinkedIn, Github } from "../components/social-icons";
 
-const Footer = ({data}) => {
-
+const Footer = ({ data }) => {
   return (
     <div className="text-lg px-10 md:px-20 lg:px-40 py-10 flex justify-between">
-      <span className="italic">data.name</span>
+      <span className="italic">{data.cvJson.basics.name}</span>
       <div>
         <Twitter user="andrioid" />
         <Github user="andrioid" />
