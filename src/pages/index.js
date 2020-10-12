@@ -26,21 +26,6 @@ const IndexPage = ({ data }) => (
   </Layout>
 );
 
-// const NavLink = ({ href, children }) => (
-//   <li className="mr-6">
-//     <a className="text-white hover:text-gray-400" href={href}>
-//       {children}
-//     </a>
-//   </li>
-// );
-
-// Wraps the text and handles margins
-// export const BodyContainer = ({ children, className }) => (
-//   <div className="mt-10 mx-5 md:mx-10 md:mx-20 lg:mx-40 text-xl md:max-w-4xl">
-//     {children}
-//   </div>
-// );
-
 const Section = ({
   children,
   title
@@ -57,6 +42,14 @@ const Section = ({
     {children}
   </div>
 );
+
+// Wraps the text and handles margins
+export const BodyContainer = ({ children, className }) => (
+  <div className="mt-10 mx-5 md:mx-10 md:mx-20 lg:mx-40 text-xl md:max-w-4xl">
+    {children}
+  </div>
+);
+
 
 export const query = graphql`
   query ArticleList {

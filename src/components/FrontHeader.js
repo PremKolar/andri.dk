@@ -1,5 +1,7 @@
 import React from "react";
 import andratar from "../../static/img/niko.jpg";
+import NavLink from "../components/NavLink"
+
 
 const FrontHeader = ({data}) => {
   return (
@@ -19,17 +21,17 @@ const FrontHeader = ({data}) => {
         }}
       >
         <nav className="flex items-end justify-end justify-between items-center p-8">
-          {/* <img
-            // alt="round profile"
-            // src={andratar}
-            // className="rounded-full shadow-2xl w-16 h-16 md:invisible"
-          /> */}
-          <div>
+          <img
+            alt="round profile"
+            src={andratar}
+            className="rounded-full shadow-2xl w-16 h-16 md:invisible"
+          />
+          <div  align="right">
             <ul className="flex flex-row">
-              {/* <NavLink href="blog/">Blog</NavLink>
+              {/* <NavLink href="blog/">Blog</NavLink> */}
 
-              <NavLink href="now/">Now</NavLink>
-              <NavLink href="cv.pdf">CV</NavLink> */}
+              <NavLink href="about/">about</NavLink>
+              {/* <NavLink href="cv.pdf">CV</NavLink> */}
             </ul>
           </div>
         </nav>
@@ -48,13 +50,13 @@ const FrontHeader = ({data}) => {
               </p>
             </div>
           </div>
-          <div className="hidden md:block p-4 items-start justify-start flex mr-6">
-            {/* <img
+          {/* <div className="hidden md:block p-4 items-start justify-start flex mr-8">
+            <img
               alt="round profile"
               src={andratar}
-              className="rounded-full shadow-2xl block mx-auto md:w-48 md:h-48"
-            /> */}
-          </div>
+              className="shadow-2xl block mx-auto md:w-48 md:h-48"
+            />
+          </div> */}
         </div>
       </div>
     </div>
