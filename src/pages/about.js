@@ -1,5 +1,6 @@
 import React from "react";
 import PagesLayout from "../layouts/pages";
+import niko from "../../static/img/nikoBonfire.jpg";
 import { BodyContainer } from ".";
 import Link from "gatsby-link";
 
@@ -18,8 +19,9 @@ const AboutPage = ({ data }) => (
         <br />
         My job at <b> Lufthansa Technik </b>ended on September 20th 2020. <br />
         <br />
+        <img src={niko} alt="<niko.jpg>" width="250"  ALIGN="left" HSPACE="20" VSPACE="0" />
         An initially planned subsequent permanent contract with Lufthansa's
-        <b> Industry Solutions </b> 
+        <b> Industry Solutions </b>
         never materialized after a company-wide hiring freeze was put into place
         in response to the covid-19 economic shock on aviation industries.
         <br />
@@ -89,10 +91,11 @@ const AboutPage = ({ data }) => (
       </ol>
       <br />
       <br />
-      So, if you read this, you are likely a potential employer or recruiter. If you think you might have a job for me, contact me at<i> nikolauskoopmann at gmail dot com</i>.
+      So, if you read this, you are likely a potential employer or recruiter. If
+      you think you might have a job for me, contact me at
+      <i> nikolauskoopmann at gmail dot com</i>.
       <br />
       <br />
-
       <Section title="Thank you Andri!">
         <p>
           This project is a fork of
