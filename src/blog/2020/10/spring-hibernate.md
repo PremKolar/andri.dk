@@ -6,5 +6,6 @@ tags: ["Java", "Spring", "Hibernate"]
 cover: "./spring-hibernate.jpg"
 draft: false
 ---
-https://www.udemy.com/course/spring-hibernate-tutorial/
 
+I am currently taking a [Udemy course on Spring and Hibernate](https://www.udemy.com/course/spring-hibernate-tutorial/).
+I blasted through the first third within 2 or 3 days initially, but then had the idea to do this webpage. I will definitely finish the course, once the site is up and running!

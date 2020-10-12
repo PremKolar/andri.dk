@@ -1,5 +1,5 @@
 import React from "react";
-import andratar from "../../static/img/niko.jpg";
+import andratar from "../../static/img/nikoBonfire.jpg";
 
 export const NavItem = ({ children, href }) => (
   <a
