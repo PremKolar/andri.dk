@@ -8,16 +8,18 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
-import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
+import LocalLibraryIcon from "@material-ui/icons/LocalLibrary";
 import Link from "gatsby-link";
 
 const CurriculumVitae = ({ data }) => {
   var items = [];
   let c = 0;
-  var dict = [];
+  var indexDict = [];
   const wrks = data.cvJson.work;
   for (var [index, value] of wrks.entries()) {
-    dict[c] = getDateNum(value.startDate);
+    indexDict[c] = value.endDate
+      ? getDateNum(value.endDate)
+      : getDateNum(value.startDate);
     c++;
     items.push(
       <VerticalTimelineElement
@@ -30,7 +32,15 @@ const CurriculumVitae = ({ data }) => {
       >
         <h3 className="vertical-timeline-element-title">{value.position}</h3>
         <h4 className="vertical-timeline-element-subtitle">{value.company}</h4>
-        <p>{value.summary}</p>
+        <p>
+          {value.link ? (
+            <Link to={value.link} style={{ color: "#743411" }}>
+              {value.summary}
+            </Link>
+          ) : (
+            value.summary
+          )}
+        </p>
         <p>
           {value.highlights
             ? value.highlights.map((txt) => <div>{" • " + txt}</div>)
@@ -42,7 +52,9 @@ const CurriculumVitae = ({ data }) => {
   }
   const edus = data.cvJson.education;
   for (var [index, value] of edus.entries()) {
-    dict[c] = getDateNum(value.startDate);
+    indexDict[c] = value.endDate
+      ? getDateNum(value.endDate)
+      : getDateNum(value.startDate);
     c++;
     items.push(
       <VerticalTimelineElement
@@ -66,7 +78,9 @@ const CurriculumVitae = ({ data }) => {
   }
   const projs = data.cvJson.projects;
   for (var [index, value] of projs.entries()) {
-    dict[c] = getDateNum(value.startDate);
+    indexDict[c] = value.endDate
+      ? getDateNum(value.endDate)
+      : getDateNum(value.startDate);
     c++;
     items.push(
       <VerticalTimelineElement
@@ -88,7 +102,9 @@ const CurriculumVitae = ({ data }) => {
 
   const clss = data.cvJson.classes;
   for (var [index, value] of clss.entries()) {
-    dict[c] = getDateNum(value.startDate);
+    indexDict[c] = value.endDate
+      ? getDateNum(value.endDate)
+      : getDateNum(value.startDate);
     c++;
     items.push(
       <VerticalTimelineElement
@@ -104,9 +120,8 @@ const CurriculumVitae = ({ data }) => {
     );
   }
 
-
   items = items.sort(function (a, b) {
-    return dict[items.indexOf(a)] - dict[items.indexOf(b)];
+    return indexDict[items.indexOf(a)] - indexDict[items.indexOf(b)];
   });
 
   console.log(1);

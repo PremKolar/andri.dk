@@ -74,7 +74,8 @@
       "website": "https://www.ifm.uni-hamburg.de/workareas/theoretical.html",
       "startDate": "2015-06",
       "endDate": "2015-08",
-      "summary": "Collaboration on the paper mentioned in section Publications. (limited to 3 months)",
+      "summary": "Collaboration on the paper 'Comparing isopycnal eddy diffusivities in the Southern Ocean with predictions from linear theory'. (limited to 3 months)",
+      "link": "https://www.sciencedirect.com/science/article/abs/pii/S1463500315001389",
       "skills": ["Matlab", "Bash", "Linux", "Latex"]
     },
     {

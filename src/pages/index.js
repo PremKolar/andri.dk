@@ -106,6 +106,7 @@ export const query = graphql`
         summary
         website
         position
+        link
       }
       education {
         institution
