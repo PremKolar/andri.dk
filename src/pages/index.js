@@ -117,6 +117,7 @@ export const query = graphql`
         grade
         thesis
         thesislink
+        info
       }
       classes{
         name
@@ -129,6 +130,7 @@ export const query = graphql`
         startDate
         endDate
         technologies
+        link
       }
     }
   }
