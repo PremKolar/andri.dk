@@ -63,7 +63,10 @@ const CurriculumVitae = ({ data }) => {
         iconStyle={{ background: "#c37624", color: "#fff" }}
         icon={<SchoolIcon />}
       >
-        <h3 className="vertical-timeline-element-title">{value.studyType}</h3>
+        <h3 className="vertical-timeline-element-title">{value.institution}</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          {value.studyType}
+        </h4>
         <h4 className="vertical-timeline-element-subtitle">{value.area}</h4>
         <p>
           {value.thesis ? (
@@ -73,6 +76,7 @@ const CurriculumVitae = ({ data }) => {
           ) : null}
         </p>
         <p>{value.grade ? "Grade: " + value.grade : null}</p>
+        <p>{value.info ? value.info : null}</p>
       </VerticalTimelineElement>
     );
   }
@@ -94,7 +98,15 @@ const CurriculumVitae = ({ data }) => {
         icon={<StarIcon />}
       >
         <h3 className="vertical-timeline-element-title">{value.what}</h3>
-        <p>{value.summary}</p>
+        <p>
+          {value.link ? (
+            <Link to={value.link} style={{ color: "#743411" }}>
+              {value.summary}
+            </Link>
+          ) : (
+            value.summary
+          )}
+        </p>
         <p>{makeTechnoItems(value.technologies)}</p>
       </VerticalTimelineElement>
     );

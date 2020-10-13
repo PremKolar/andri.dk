@@ -101,7 +101,7 @@ const AboutPage = ({ data }) => (
         <p>
           This project is a fork of
           <Link
-            to="https://github.com/andrioid/andri.dk"
+            to="https://andri.dk"
             style={{ color: "#743411" }}
           >
             <span> andrioid's home-page</span>

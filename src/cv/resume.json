@@ -2,9 +2,9 @@
   "basics": {
     "name": "Nikolaus Koopmann",
     "label": "Developper",
-    "picture": "URLtoJPG",
+    "picture": "TODO",
     "email": "nikolauskoopmann@gmail.com",
-    "website": "TODO",
+    "website": "nikoop.de",
     "summary": "Physical Oceanographer looking for a Job in Computer Science.",
     "location": {
       "city": "Hamburg",
@@ -92,22 +92,12 @@
       "skills": ["Matlab", "Oracle Database"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "TODO opensource!",
-      "position": "Co-host",
-      "website": "https://www.meetup.com/Aalborg-React-React-Native-Meetup/",
-      "startDate": "2016-12-13",
-      "summary": "Speaker and co-host."
-    }
-  ],
   "education": [
     {
-      "institution": "Gymnasium",
+      "institution": "Helene-Lange-Gymnasium",
       "studyType": "Abitur",
       "startDate": "1995",
       "endDate": "2005",
-      "grade": "2.7",
       "info": "LK Mathe/Physik"
     },
     {
@@ -152,7 +142,7 @@
   "projects": [
     {
       "what": "Fleamarket Software",
-      "summary": "Helped a friend making his business simpler.",
+      "summary": "Helped a friend make his business simpler.",
       "startDate": "2020-09-21",
       "endDate": "2020-10-05",
       "technologies": ["Java", "Swing"]
@@ -172,7 +162,8 @@
     },
     {
       "what": "Open-Source Contribution",
-      "summary": "Improved JabRef's DOI-detection. TODO link",
+      "summary": "Improved JabRef's DOI-detection.",
+      "link": "https://github.com/JabRef/jabref/pull/6920",
       "startDate": "2020-09-21",
       "endDate": "2020-10-01",
       "technologies": [
