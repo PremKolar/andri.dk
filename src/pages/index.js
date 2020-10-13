@@ -60,7 +60,7 @@ export const query = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 100, format: PLAIN)
+          excerpt(pruneLength: 150, format: PLAIN)
           id
           frontmatter {
             title
