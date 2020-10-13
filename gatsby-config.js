@@ -5,7 +5,7 @@ module.exports = {
       "TODO",
     siteUrl:
       process.env.NODE_ENV === "production"
-        ? "https://andri.dk"
+        ? "https://nikoop.de"
         : "http://localhost:8000",
     author: "Nikolaus Koopmann",
     social: {     
@@ -16,10 +16,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-social-cards",
       options: {
-        authorImage: "./static/img/coffee-art.jpg",
-        backgroundImage: "./static/img/hvitserkur.JPG",
-        defaultAuthor: "Andri Óskarsson",
-        design: "default",
+        authorImage: "./static/img/nikoBonfire.jpg",
+        backgroundImage: "./static/img/goldenIndo.jpg",
+        defaultAuthor: "Nikolaus Koopmann",
+        design: "card",
       },
     },
     {
@@ -75,6 +75,7 @@ module.exports = {
             // if `string` is used, it will be used to create RegExp and then test if pathname of
             // current page satisfied this regular expression;
             // if not provided or `undefined`, all pages will have feed reference inserted
+            title: "Nikos Blog",
             match: "^/blog/",
           },
         ],

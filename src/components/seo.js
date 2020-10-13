@@ -1,7 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
-import defaultMetaImage from "../../static/img/default-og-image.png";
+import defaultMetaImage from "../../static/img/goldenIndo.jpg";
 
 // Borrowed from https://github.com/kentcdodds/kentcdodds.com/blob/master/src/components/seo/index.js
 // Thanks Kent
