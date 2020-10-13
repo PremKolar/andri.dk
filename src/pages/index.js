@@ -33,7 +33,7 @@ const Section = ({
   <div
     className={`md:px-20 lg:px-40 text-xl py-6`}
     style={{
-      backgroundColor: "#f7f2d9"
+      backgroundColor: "#e9e2ad"
     }}
   >
     <h2 className="font-headline ml-6 md:ml-0 font-semibold text-xl md:text-2xl uppercase">

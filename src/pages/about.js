@@ -40,7 +40,7 @@ const AboutPage = ({ data }) => (
         <i>
           ...<b>Required tech-stack</b>: JavaEE, Spring, Hibernate, JS,
           Vue/React/Angular, CSS, Html, Jenkins, Gatsby, yaml, git, Python,
-          Django, MongoDB, Docker/Kubernetes plus ideally experience in AI and
+          Django, MongoDB, Docker/Kubernetes plus ideally experience in AI, machine learning and
           big data...
         </i>
         etc...
