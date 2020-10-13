@@ -3,6 +3,7 @@ import PagesLayout from "../layouts/pages";
 import niko from "../../static/img/nikoBonfire.jpg";
 import { BodyContainer } from ".";
 import Link from "gatsby-link";
+import HTML from '../../.cache/default-html';
 
 const Section = ({ children, title }) => (
   <div className="mt-6 leading-relaxed text-sm md:text-lg">
@@ -19,7 +20,14 @@ const AboutPage = ({ data }) => (
         <br />
         My job at <b> Lufthansa Technik </b>ended on September 20th 2020. <br />
         <br />
-        <img src={niko} alt="<niko.jpg>" width="250"  ALIGN="left" HSPACE="20" VSPACE="0" />
+        <img
+          src={niko}
+          alt="<niko.jpg>"
+          width="250"
+          ALIGN="left"
+          HSPACE="20"
+          VSPACE="0"
+        />
         An initially planned subsequent permanent contract with Lufthansa's
         <b> Industry Solutions </b>
         never materialized after a company-wide hiring freeze was put into place
@@ -40,8 +48,8 @@ const AboutPage = ({ data }) => (
         <i>
           ...<b>Required tech-stack</b>: JavaEE, Spring, Hibernate, JS,
           Vue/React/Angular, CSS, Html, Jenkins, Gatsby, yaml, git, Python,
-          Django, MongoDB, Docker/Kubernetes plus ideally experience in AI, machine learning and
-          big data...
+          Django, MongoDB, Docker/Kubernetes plus ideally experience in AI,
+          machine learning and big data...
         </i>
         etc...
         <br />
@@ -89,6 +97,11 @@ const AboutPage = ({ data }) => (
           Using continuous deployment, the recruiters always have the latest
           version of my CV.
         </li>
+        <li>
+          I can prove, that I am able to adopt new technologies. I built this
+          webpage in under a week, with 0 prior experience in any of the
+          technologies used: JavaScript/HTML/CSS/React/Gatsby/GraphQL
+        </li>
       </ol>
       <br />
       <br />
@@ -100,10 +113,7 @@ const AboutPage = ({ data }) => (
       <Section title="Thank you Andri!">
         <p>
           This project is a fork of
-          <Link
-            to="https://andri.dk"
-            style={{ color: "#743411" }}
-          >
+          <Link to="https://andri.dk" style={{ color: "#743411" }}>
             <span> andrioid's home-page</span>
           </Link>
           .
