@@ -4,7 +4,7 @@ date: "2020-10-13T00:00:00.000Z"
 title: "Weather Forecast"
 tags: []
 cover: "./laboeWindy.jpg"
-draft: true
+draft: false
 ---
 Tomorrow I am going kite surfing! The conditions will almost certainly be perfect. Why am I so sure? Because I looked at the forecast model with the best resolution in time and space: [AROME](https://www.umr-cnrm.fr/spip.php?article120&lang=en).
 
