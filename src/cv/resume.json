@@ -242,22 +242,7 @@
       "level": "Senior",
       "color": "#2B6CB0",
       "keywords": [
-        "Go",
-        "PHP",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "React Native",
-        "C",
-        "C++",
-        "C#",
-        "TCL",
-        "Lua",
-        "Vue.js",
-        "TypeScript",
-        "Java",
-        "jQuery"
+        "TODO"
       ]
     },
     {
@@ -265,22 +250,7 @@
       "color": "#4C51BF",
       "level": "Senior",
       "keywords": [
-        "Github",
-        "DevOps",
-        "Linux",
-        "AWS",
-        "GCP",
-        "Terraform",
-        "Kubernetes",
-        "Docker",
-        "DNS",
-        "SMTP",
-        "Cisco",
-        "Asterisk",
-        "Jenkins",
-        "Gitlab",
-        "Windows",
-        "Mac"
+        "TODO"
       ]
     },
     {
@@ -288,13 +258,7 @@
       "color": "#319795",
       "level": "Senior",
       "keywords": [
-        "MySQL",
-        "Postgres",
-        "MongoDB",
-        "Firestore",
-        "Memcache",
-        "Redis",
-        "SQLite"
+        "TODO"
       ]
     },
     {
