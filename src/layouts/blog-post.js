@@ -8,7 +8,7 @@ import { SEO } from "../components/seo";
 // import '../css/blog-post.css'; // make it pretty!
 
 export default function Template({
-  data // this prop will be injected by the GraphQL query we'll write in a bit
+  data, // this prop will be injected by the GraphQL query we'll write in a bit
 }) {
   if (!data) {
     return null;
@@ -19,7 +19,12 @@ export default function Template({
     <Layout slug={data.markdownRemark.fields.slug}>
       <SEO frontmatter={post.frontmatter} postData={post} />
       <Nav />
-      <div className="pt-4 bg-gray-200 py-2 md:py-10 md:px-10 min-h-screen md:flex justify-center">
+      <div
+        className="pt-4 bg-white py-2 md:py-10 md:px-10 min-h-screen md:flex justify-center"
+        // style={{
+        //   backgroundColor: "#e9e2ad",
+        // }}
+      >
         <div className="bg-white max-w-4xl py-10 shadow px-5 lg:px-10 min-w-half-screen">
           {cover ? (
             <Img
@@ -37,7 +42,7 @@ export default function Template({
               <p>{post.frontmatter.date}</p>
             </div>
             <div className="mb-4 ">
-              {post.frontmatter.tags.map(t => (
+              {post.frontmatter.tags.map((t) => (
                 <span key={t} className="andri-tag text-xs">
                   {t}
                 </span>
