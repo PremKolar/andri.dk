@@ -122,7 +122,9 @@ export const query = graphql`
       classes{
         name
         startDate
+        endDate
         technologies
+        link
       }
       projects {
         what
