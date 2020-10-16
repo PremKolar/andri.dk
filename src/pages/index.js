@@ -31,10 +31,7 @@ const Section = ({
   title
 }) => (
   <div
-    className={`md:px-20 lg:px-40 text-xl py-6`}
-    style={{
-      backgroundColor: "#e9e2ad"
-    }}
+    className={`md:px-20 bg-pageBG lg:px-40 text-xl py-6`}
   >
     <h2 className="font-headline ml-6 md:ml-0 font-semibold text-xl md:text-2xl uppercase">
       {title}

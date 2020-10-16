@@ -12,10 +12,7 @@ export const NavItem = ({ children, href }) => (
 
 export const Nav = (props) => (
   <nav
-    className="flex items-center justify-between flex-wrap p-6"
-    style={{
-      backgroundColor: "#e8de8c",
-    }}
+    className="flex items-center bg-navColor justify-between flex-wrap p-6"   
   >
     <a href="/" className="">
       <div className="flex items-center flex-shrink-0 text-white mr-6">

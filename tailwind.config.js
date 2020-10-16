@@ -10,8 +10,6 @@ const sizes = {
   },
 };
 
-// primary color: #2B6CB0
-
 module.exports = {
   purge: [
     "./src/**/*.jsx",
@@ -35,13 +33,18 @@ module.exports = {
         headline: ["montserrat", "helvetica", "arial"],
         mono: ["source code pro"],
       },
+      colors: {
+        techTags: "#DAA520",
+        pageBG: "#e9e2ad",
+        navColor: "#e8de8c"
+      },
     },
   },
   variants: {
     boxShadow: ["responsive", "hover", "focus"],
   },
   plugins: [
-    function({ addBase, config }) {
+    function ({ addBase, config }) {
       addBase({
         // Add base styles when needed
       });
