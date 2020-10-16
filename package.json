@@ -84,9 +84,9 @@
     "node": ">= 10.0.0"
   },
   "dependencies": {
-    "react-vertical-timeline-component": "^3.1.2",
-    "@material-ui/icons": "^4.9.1",
     "@material-ui/core": "^4.11.0",
-    "react-color": "^2.18.1"
+    "@material-ui/icons": "^4.9.1",
+    "react-color": "^2.18.1",
+    "react-vertical-timeline-component": "^3.1.2"
   }
 }
