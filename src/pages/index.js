@@ -88,12 +88,6 @@ export const query = graphql`
         summary
         website
       }
-      skills {
-        name
-        level
-        keywords
-        color
-      }
       work {
         company
         startDate

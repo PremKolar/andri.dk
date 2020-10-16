@@ -174,6 +174,14 @@
   ],
   "classes": [
     {
+      "name": "Spring & Hibernate for Beginners",
+      "startDate": "2020-10-10",
+      "endDate": "2030-11-01",
+      "technologies": ["Java", "Hibernate", "Spring", "REST", "Spring Boot", "Thymeleaf"],
+      "link": "https://www.udemy.com/course/spring-hibernate-tutorial/",
+      "platform": "Udemy"
+    },    
+    {
       "name": "Intro to Web Dev V2",
       "startDate": "2020-10-15",
       "endDate": "2020-10-16",
@@ -246,61 +254,6 @@
       "startDate": "2009",
       "technologies": ["Matlab","Python","Linux","Bash"],
       "platform": "Uni Hamburg"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Software Development",
-      "level": "Senior",
-      "color": "#2B6CB0",
-      "keywords": [
-        "TODO"
-      ]
-    },
-    {
-      "name": "System Operations",
-      "color": "#4C51BF",
-      "level": "Senior",
-      "keywords": [
-        "TODO"
-      ]
-    },
-    {
-      "name": "Databases",
-      "color": "#319795",
-      "level": "Senior",
-      "keywords": [
-        "TODO"
-      ]
-    },
-    {
-      "name": "Processes and methodologies",
-      "level": "Senior",
-      "keywords": ["Agile", "Kanban", "Scrum"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Icelandic",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Danish",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Technical",
-      "keywords": ["Programming", "Linux", "Gaming"]
-    },
-    {
-      "name": "Personal",
-      "keywords": ["Basketball", "Weight lifting", "Hiking", "Photography"]
     }
   ],
   "meta": {

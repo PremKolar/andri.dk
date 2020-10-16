@@ -1,17 +1,33 @@
 module.exports = {
   siteMetadata: {
     title: `Nikos CV`,
-    description:
-      "My website, that shall help me score a job!",
+    description: "My website, that shall help me score a job!",
     siteUrl:
       process.env.NODE_ENV === "production"
         ? "https://nikoop.de"
         : "http://localhost:8000",
     author: "Nikolaus Koopmann",
-    social: {     
-    },
+    social: {},
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/favicon.png",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        // Available options and their defaults:
+        base64Width: 20,
+        forceBase64Format: ``, // valid formats: png,jpg,webp
+        useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
+        stripMetadata: true,
+        defaultQuality: 50,
+        failOnError: true,
+      },
+    },
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-social-cards",
