@@ -173,10 +173,7 @@ function makeTechnoItems(technos) {
         technos.map((s) => (
           <span
             key={s}
-            className="andri-tag"
-            style={{
-              backgroundColor: "#DAA520",
-            }}
+            className="andri-tag"            
           >
             {s}
           </span>
