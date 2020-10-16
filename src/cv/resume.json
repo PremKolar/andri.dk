@@ -151,6 +151,7 @@
       "what": "Creating this webpage",
       "summary": "...learning web dev...",
       "startDate": "2020-10-07",
+      "endDate": "2030-01-01",
       "technologies": [
         "HTML",
         "CSS",
@@ -177,62 +178,74 @@
       "startDate": "2020-10-15",
       "endDate": "2020-10-16",
       "technologies": ["JS", "Html", "CSS", "AJAX", "Node.js", "git"],
-      "link": "https://frontendmasters.com/courses/web-development-v2/"
+      "link": "https://frontendmasters.com/courses/web-development-v2/",
+      "platform": "Frontend Masters"
     },
     {
       "name": "Scientific Computing I",
       "startDate": "2012",
-      "technologies": ["FORTRAN", "OpenMp/MPI"]
+      "technologies": ["FORTRAN", "OpenMp/MPI"],
+      "platform": "Uni Hamburg"
     },
     {
       "name": "Scientific Computing IV",
       "startDate": "2013",
-      "technologies": ["C", "OpenMp/MPI"]
+      "technologies": ["C", "OpenMp/MPI"],
+      "platform": "Uni Hamburg"
     },
     {
       "name": "Software Development I",
       "startDate": "2014",
-      "technologies": ["Java", "git"]
+      "technologies": ["Java", "git"],
+      "platform": "Uni Hamburg"
     },
     {
       "name": "Software Development II",
       "startDate": "2017",
-      "technologies": ["Java", "git"]
+      "technologies": ["Java", "git"],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "Databases",
       "startDate": "2017",
-      "technologies": ["SQL"]
+      "technologies": ["SQL"],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "Algorithms and Data-Structures",
       "startDate": "2017",
-      "technologies": []
+      "technologies": [],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "Ocean Modelling",
       "startDate": "2010",
-      "technologies": ["FORTRAN","Python"]
+      "technologies": ["FORTRAN","Python"],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "numerical tracer transport simulation",
       "startDate": "2010",
-      "technologies": ["Matlab"]
+      "technologies": ["Matlab"],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "open source scripting for geoscientific data analysis",
       "startDate": "2009",
-      "technologies": ["Python"]
+      "technologies": ["Python"],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "numerical methods in geo-sciences",
       "startDate": "2009",
-      "technologies": ["FORTRAN"]
+      "technologies": ["FORTRAN", "Linux"],
+      "platform": "Uni Hamburg"
     },    
     {
       "name": "data handling and programming in geo-sciences",
       "startDate": "2009",
-      "technologies": ["Matlab","Python"]
+      "technologies": ["Matlab","Python","Linux","Bash"],
+      "platform": "Uni Hamburg"
     }
   ],
   "skills": [

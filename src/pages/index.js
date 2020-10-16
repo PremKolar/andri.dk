@@ -125,6 +125,7 @@ export const query = graphql`
         endDate
         technologies
         link
+        platform
       }
       projects {
         what
