@@ -3,7 +3,7 @@ import PagesLayout from "../layouts/pages";
 import niko from "../../static/img/nikoBonfire.jpg";
 import { BodyContainer } from ".";
 import Link from "gatsby-link";
-import HTML from '../../.cache/default-html';
+import HTML from "../../.cache/default-html";
 
 const Section = ({ children, title }) => (
   <div className="mt-6 leading-relaxed text-sm md:text-lg">
@@ -34,12 +34,18 @@ const AboutPage = ({ data }) => (
         in response to the covid-19 economic shock on aviation industries.
         <br />
         <br />
-        Equipped with a great employment-reference-letter and 2.5
-        years of full-time programming experience, I was extremely confident
-        that I would find the next coding job in no time. Having sent out quite
-        a number of applications by now, I have come to realise that companies
-        are not exactly looking for niche-science-majors (oceanography) who know
-        how to code in Matlab.
+        Equipped with a great
+        <Link
+          to="https://www.dropbox.com/s/t88mr27bp4spdrj/KoopmannGenericKomplett1007.pdf?dl=0"
+          style={{ color: "#743411" }}
+        >
+          <span> employment-reference-letter</span>
+        </Link>{" "}
+        and 2.5 years of full-time programming experience, I was extremely
+        confident that I would find the next coding job in no time. Having sent
+        out quite a number of applications by now, I have come to realise that
+        companies are not exactly looking for niche-science-majors
+        (oceanography) who know how to code in Matlab.
         <br />
         <br />
         Instead a typical job posting reads like:
@@ -48,8 +54,8 @@ const AboutPage = ({ data }) => (
         <i>
           ...<b>Required tech-stack</b>: JavaEE, Spring, Hibernate, JS,
           Vue/React/Angular, CSS, Html, Jenkins, Gatsby, yaml, git, Python,
-          Django, MongoDB, Docker/Kubernetes, REST, Kafka plus ideally experience in AI,
-          machine learning and big data...
+          Django, MongoDB, Docker/Kubernetes, REST, Kafka plus ideally
+          experience in AI, machine learning and big data...
         </i>
         etc...
         <br />
@@ -85,7 +91,7 @@ const AboutPage = ({ data }) => (
       required of me swiftly and on the fly. <br />
       <br />
       To keep my CV up-to-date, I had the idea to migrate it from Latex directly
-      to the web.
+      to the web <a href="#oldCV">[1]</a>.
       <br />
       This approach has several benefits:
       <br />
@@ -181,6 +187,17 @@ const AboutPage = ({ data }) => (
  */}
       {/* <Section title="[Last updated: 2020-10-12]"></Section> */}
       <div className="mt-10">
+        <p className="text-sm" id="oldCV">
+          [1] check out the Latex version{" "}
+          <Link
+            to="https://www.dropbox.com/s/t88mr27bp4spdrj/KoopmannGenericKomplett1007.pdf?dl=0"
+            style={{ color: "#743411" }}
+          >
+            <span> here</span>
+          </Link>
+          .
+        </p>
+        <br />
         <p className="text-sm">
           Inspired by{" "}
           <a className="link" href="https://andri.dk/now/">
