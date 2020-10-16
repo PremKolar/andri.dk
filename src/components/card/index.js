@@ -29,7 +29,7 @@ export const Card = ({
         </div>
         {tags.length > 0 ? (
           <div className="py-4">
-            {tags.slice(0, 3).map((t) => (
+            {tags.slice(0, 42).map((t) => (
               <span
                 key={t}
                 className="andri-tag"

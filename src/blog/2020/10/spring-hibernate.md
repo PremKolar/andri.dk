@@ -1,5 +1,5 @@
 ---
-path: "/blog/2019-07/spring-hibernate"
+path: "/blog/2020-10/spring-hibernate"
 date: "2020-10-09T00:00:00.000Z"
 title: "Spring/Hibernate Udemy Course"
 tags: ["Java", "Spring", "Hibernate"]

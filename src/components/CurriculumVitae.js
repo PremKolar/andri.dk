@@ -121,12 +121,24 @@ const CurriculumVitae = ({ data }) => {
     items.push(
       <VerticalTimelineElement
         className={"vertical-timeline-element--clss" + index}
-        date={value.startDate}
+        date={
+          value.endDate
+            ? value.startDate + " - " + value.endDate
+            : value.startDate
+        }
         iconStyle={{ background: "#9b8654", color: "#fff" }}
         icon={<LocalLibraryIcon />}
       >
         <h3 className="vertical-timeline-element-title">University Course</h3>
-        <p>{value.name}</p>
+        <p>
+          {value.link ? (
+            <Link to={value.link} style={{ color: "#743411" }}>
+              {value.name}
+            </Link>
+          ) : (
+            value.name
+          )}
+        </p>
         <p>{makeTechnoItems(value.technologies)}</p>
       </VerticalTimelineElement>
     );

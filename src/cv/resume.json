@@ -173,6 +173,13 @@
   ],
   "classes": [
     {
+      "name": "Intro to Web Dev V2",
+      "startDate": "2020-10-15",
+      "endDate": "2020-10-16",
+      "technologies": ["JS", "Html", "CSS", "AJAX", "Node.js", "git"],
+      "link": "https://frontendmasters.com/courses/web-development-v2/"
+    },
+    {
       "name": "Scientific Computing I",
       "startDate": "2012",
       "technologies": ["FORTRAN", "OpenMp/MPI"]
