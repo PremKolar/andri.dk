@@ -34,7 +34,7 @@ const AboutPage = ({ data }) => (
         in response to the covid-19 economic shock on aviation industries.
         <br />
         <br />
-        Equipped with a great employment-reference-letter (TODO link) and 2.5
+        Equipped with a great employment-reference-letter and 2.5
         years of full-time programming experience, I was extremely confident
         that I would find the next coding job in no time. Having sent out quite
         a number of applications by now, I have come to realise that companies
