@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Nikos CV`,
     description:
-      "TODO",
+      "My website, that shall help me score a job!",
     siteUrl:
       process.env.NODE_ENV === "production"
         ? "https://nikoop.de"
