@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <h1>{data.name}</h1>
     <SEO />
-    <FrontHeader data={data} />
+    <FrontHeader data={data} />    
     <Section title="Latest Posts">
       <LatestPosts data={data} />
     </Section>
@@ -26,13 +26,8 @@ const IndexPage = ({ data }) => (
   </Layout>
 );
 
-const Section = ({
-  children,
-  title
-}) => (
-  <div
-    className={`md:px-20 bg-pageBG lg:px-40 text-xl py-6`}
-  >
+const Section = ({ children, title }) => (
+  <div className={`md:px-20 bg-pageBG lg:px-40 text-xl py-6`}>
     <h2 className="font-headline ml-6 md:ml-0 font-semibold text-xl md:text-2xl uppercase">
       {title}
     </h2>
@@ -46,7 +41,6 @@ export const BodyContainer = ({ children, className }) => (
     {children}
   </div>
 );
-
 
 export const query = graphql`
   query ArticleList {
@@ -116,7 +110,7 @@ export const query = graphql`
         thesislink
         info
       }
-      classes{
+      classes {
         name
         startDate
         endDate

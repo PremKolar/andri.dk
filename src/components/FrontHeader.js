@@ -12,6 +12,7 @@ const FrontHeader = ({data}) => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundBlendMode: "darken",
+        backgroundPosition: "center top"
       }}
     >
       <div
