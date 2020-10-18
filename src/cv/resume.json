@@ -182,6 +182,14 @@
       "platform": "Udemy"
     },    
     {
+      "name": "Getting started with JavaScript, V2",
+      "startDate": "2020-10-18",
+      "endDate": "2020-10-18",
+      "technologies": ["JS"],
+      "link": "https://frontendmasters.com/courses/getting-started-javascript-v2/wrapping-up/",
+      "platform": "Frontend Masters"
+    },    
+    {
       "name": "Intro to Web Dev V2",
       "startDate": "2020-10-15",
       "endDate": "2020-10-16",
