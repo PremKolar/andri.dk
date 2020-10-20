@@ -4,8 +4,8 @@
 
 .sudoku-page {
   padding: 10px;
-  margin: 10px;
-  width: 350px;
+  margin: 10px 10px 10px 10px;
+  width: 340px;
   background-color:peru;
 }
 
@@ -13,12 +13,16 @@
   background-color:#e9e2ad;
   color: black;
   text-align: center;
-  height: 35px;
-  width: 35px;
+  height: 33.8px;
+  width: 33.8px;
   border-radius: 0;
   margin: 1px 1px 0px 0px;
   border-style: solid;
   border-color: blanchedalmond;
+}
+
+.num-box:hover{
+  background-color: #ecead7;
 }
 
 .three-by-three {
@@ -47,6 +51,10 @@
   font-size: 16px;
   cursor: pointer;
   display: block;
+}
+
+.goButton:hover{
+  background-color:tomato;
 }
 
 input::-webkit-outer-spin-button,
