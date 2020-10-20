@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.sudoku-page {
+  padding: 10px;
+  margin: 10px;
+  width: 350px;
+  background-color:peru;
+}
+
+.num-box {
+  background-color:#e9e2ad;
+  color: black;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 0;
+  margin: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: blanchedalmond;
+}
+
+.three-by-three {
+  border-color: darkslategrey;
+  padding: 2px 2px 0px 0px;
+  /* display: flex; */
+}
+
+.three-columns-of-ThreeThreeByThrees {
+  display: flex;
+}
+
+.three-columns-of-ThreeThreeByThrees {
+  margin-bottom: 10px;
+}
+
+.goButton {
+  border: none;
+  background-color:tan;
+  color: grey;
+  padding: 3px 3px;
+  margin-right: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
