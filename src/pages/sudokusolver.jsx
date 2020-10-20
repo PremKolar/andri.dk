@@ -204,6 +204,10 @@ class NumBox extends SudokuComponent {
     this.refs["input"].value = v;
   }
   numberEnteredCallback(e) {
+    if (e.target.value == "") {
+      this.sudoku.set(this.row, this.column, 0);
+      return;
+    }
     if (e.target.value < 1 || e.target.value > 9) {
       e.target.value = "";
       return;
