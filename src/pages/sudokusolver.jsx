@@ -201,10 +201,6 @@ class NumBox extends SudokuComponent {
     );
   }
   updateValue(v) {
-    // if (v == 0) {
-    //   v = "";
-    // }
-    // console.log(v);
     this.refs["input"].value = v;
   }
   numberEnteredCallback(e) {
@@ -254,7 +250,7 @@ class Sudoku {
 
   set(row, col, v) {
     assert(row >= 0 && row < 9);
-    assert(col >= 0 && col < 9);   
+    assert(col >= 0 && col < 9);
     assert(this.valueIsPossible(row, col, v));
     this.mtrx[row][col] = v;
   }
@@ -285,7 +281,7 @@ class Sudoku {
   twoDtoLinIdx(row, col) {
     let r = row % 3;
     let c = col % 3;
-    return 3*r + c;
+    return 3 * r + c;
   }
 
   valueIsOKinSquare(row, col, v) {
