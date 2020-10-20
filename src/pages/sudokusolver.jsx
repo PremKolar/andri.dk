@@ -177,7 +177,7 @@ class ThreeByThree extends SudokuComponent {
     );
   }
   updateValue(row, col, v) {
-    this.refs["" + (col % 3) + (row % 3)].updateValue(v);
+    this.refs["" + (row % 3) + (col % 3)].updateValue(v);
   }
 }
 
@@ -201,6 +201,10 @@ class NumBox extends SudokuComponent {
     );
   }
   updateValue(v) {
+    // if (v == 0) {
+    //   v = "";
+    // }
+    // console.log(v);
     this.refs["input"].value = v;
   }
   numberEnteredCallback(e) {
@@ -250,10 +254,8 @@ class Sudoku {
 
   set(row, col, v) {
     assert(row >= 0 && row < 9);
-    assert(col >= 0 && col < 9);
-    if (!this.valueIsPossible(row, col, v)) {
-      row;
-    }
+    assert(col >= 0 && col < 9);   
+    assert(this.valueIsPossible(row, col, v));
     this.mtrx[row][col] = v;
   }
 
@@ -262,9 +264,6 @@ class Sudoku {
   }
 
   valueIsPossible(row, col, v) {
-    console.log(this.valueIsOKvertically(row, col, v));
-    console.log(this.valueIsOKhorizontally(row, col, v));
-    console.log(this.valueIsOKinSquare(row, col, v));
     return (
       this.valueIsOKvertically(row, col, v) &&
       this.valueIsOKhorizontally(row, col, v) &&
@@ -277,13 +276,16 @@ class Sudoku {
       return vec.slice(idx - (idx % 3), idx - (idx % 3) + 3);
     }
 
-    return sl(this.mtrx, col).map(function (value, index) {
-      return sl(value, row);
+    return sl(this.mtrx, row).map(function (value, index) {
+      return sl(value, col);
     });
   }
 
+  // with respect to the box
   twoDtoLinIdx(row, col) {
-    return Math.floor(row / 3) * ((col % 3 )+ 1) + (row % 3);
+    let r = row % 3;
+    let c = col % 3;
+    return 3*r + c;
   }
 
   valueIsOKinSquare(row, col, v) {
