@@ -32,6 +32,7 @@ const FrontHeader = ({data}) => {
             <ul className="flex flex-row">
               {/* <NavLink href="blog/">Blog</NavLink> */}
 
+              <NavLink href="sudokusolver/">sudoku</NavLink>
               <NavLink href="about/">about</NavLink>
               {/* <NavLink href="cv.pdf">CV</NavLink> */}
             </ul>

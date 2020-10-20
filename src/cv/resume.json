@@ -141,6 +141,14 @@
   ],
   "projects": [
     {
+      "what": "Sudoku Solver",
+      "summary": "Wrote a Sudoku Solver",
+      "link": "https://nikoop.de/sudokusolver",
+      "startDate": "2020-10-18",
+      "endDate": "2020-10-20",
+      "technologies": ["JS", "React", "CSS", "Html","JSX"]
+    },
+    {
       "what": "Fleamarket Software",
       "summary": "Helped a friend make his business simpler.",
       "startDate": "2020-09-21",
@@ -248,59 +256,14 @@
       "platform": "Uni Hamburg"
     }
   ],
-  "skills": [
-    {
-      "name": "Software Development",
-      "level": "Senior",
-      "color": "#2B6CB0",
-      "keywords": [
-        "TODO"
-      ]
-    },
-    {
-      "name": "System Operations",
-      "color": "#4C51BF",
-      "level": "Senior",
-      "keywords": [
-        "TODO"
-      ]
-    },
-    {
-      "name": "Databases",
-      "color": "#319795",
-      "level": "Senior",
-      "keywords": [
-        "TODO"
-      ]
-    },
-    {
-      "name": "Processes and methodologies",
-      "level": "Senior",
-      "keywords": ["Agile", "Kanban", "Scrum"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Icelandic",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Danish",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
   "interests": [
     {
       "name": "Technical",
-      "keywords": ["Programming", "Linux", "Gaming"]
+      "keywords": ["Programming"]
     },
     {
       "name": "Personal",
-      "keywords": ["Basketball", "Weight lifting", "Hiking", "Photography"]
+      "keywords": ["Surfing", "Kite Surfing", "Snowboarding", "Meditation"]
     }
   ],
   "meta": {
