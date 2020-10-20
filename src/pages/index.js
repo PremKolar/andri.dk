@@ -81,11 +81,7 @@ export const query = graphql`
         name
         summary
         website
-<<<<<<< HEAD
-      }
-=======
       }      
->>>>>>> dev
       work {
         company
         startDate
