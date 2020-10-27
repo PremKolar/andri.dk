@@ -127,6 +127,13 @@ module.exports = {
         path: `${__dirname}/static/img/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pdf`,
+        path: `${__dirname}/static/pdf/`,
+      },
+    },
     "gatsby-transformer-json", // Resume JSON
     {
       resolve: "gatsby-source-filesystem",

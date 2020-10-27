@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <h1>{data.name}</h1>
     <SEO />
-    <FrontHeader data={data} />    
+    <FrontHeader data={data} />
     <Section title="Latest Posts">
       <LatestPosts data={data} />
     </Section>
@@ -81,7 +81,7 @@ export const query = graphql`
         name
         summary
         website
-      }      
+      }
       work {
         company
         startDate
@@ -119,6 +119,16 @@ export const query = graphql`
         endDate
         technologies
         link
+      }
+    }
+    allFile(filter: { extension: { eq: "pdf" } }) {
+      edges {
+        node {
+          name
+          id
+          absolutePath
+          publicURL
+        }
       }
     }
   }
