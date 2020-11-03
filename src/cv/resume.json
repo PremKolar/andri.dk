@@ -141,6 +141,14 @@
   ],
   "projects": [
     {
+      "what": "Kitems App",
+      "summary": "Published my first Android app",
+      "link": "https://play.google.com/store/apps/details?id=com.nk.com.nk.tokitelist",
+      "startDate": "2020-10-25",
+      "endDate": "2020-11-01",
+      "technologies": ["Kotlin"]
+    },
+    {
       "what": "Sudoku Solver",
       "summary": "Wrote a Sudoku Solver",
       "link": "https://nikoop.de/sudokusolver",
