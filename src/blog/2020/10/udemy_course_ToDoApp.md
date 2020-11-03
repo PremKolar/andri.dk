@@ -15,4 +15,5 @@ I've also used the course to code my own version of the app alongside the lectur
 It is really just a simple ToDo-App but it has the feature to _uncheck_ all checked items with one button. In the app that I had used previously for this purpose (Google Tasks), I had to manually uncheck each item from the archive before every session.
 Another neat feature is that each (k)item has a property _season_ which is either summer/winter or allYear. This way you can filter your list according to the time of the year (You don't need sun-screen in December, and no neoprene-hood in August).
 
-Here's the [repo](https://github.com/PremKolar/Kitems). The installable apk will follow...
+Here's the [repo](https://github.com/PremKolar/Kitems). 
+And here is [the Google Play link](https://play.google.com/store/apps/details?id=com.nk.com.nk.tokitelist).
