@@ -84,7 +84,7 @@ const AboutPage = ({ data }) => (
       </p>
       <br />
       <br />
-      Thus, I decided, I would study these new technologies until I reach a
+      Thus, I decided, I would study these hitherto unknown technologies until I reach a
       sufficient level in enough of them, so that my CV would finally catch the
       eyes of recruiters. Because all I need is someone giving me a chance to
       prove my self on the job, as I know that I would learn whatever is
@@ -106,7 +106,7 @@ const AboutPage = ({ data }) => (
         <li>
           I can prove, that I am able to adopt new technologies. I built this
           webpage in under a week, with 0 prior experience in any of the
-          technologies used: JavaScript/HTML/CSS/React/Gatsby/GraphQL
+          technologies used.
         </li>
       </ol>
       <br />
