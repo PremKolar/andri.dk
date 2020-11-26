@@ -10,3 +10,4 @@ draft: false
 The latest version of my Kitems-App is [live on the Google-Play store](https://play.google.com/store/apps/details?id=com.nk.com.nk.tokitelist)!
 
 The main new feature is a _session-logger_. Log your sessions with date/spot/rating info!
+

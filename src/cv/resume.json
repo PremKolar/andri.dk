@@ -200,7 +200,7 @@
     {
       "name": "Spring & Hibernate for Beginners",
       "startDate": "2020-10-10",
-      "endDate": "2030-11-01",
+      "endDate": "2020-11-01",
       "technologies": ["Java", "Hibernate", "Spring", "REST", "Spring Boot", "Thymeleaf"],
       "link": "https://www.udemy.com/course/spring-hibernate-tutorial/",
       "platform": "Udemy"
