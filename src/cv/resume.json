@@ -141,12 +141,20 @@
   ],
   "projects": [
     {
+      "what": "Shared Rent App",
+      "summary": "Published my second Android app",
+      "link": "https://play.google.com/store/apps/details?id=com.sr.sharedrent",
+      "startDate": "2020-11-02",
+      "endDate": "2020-12-11",
+      "technologies": ["Java","Room","Android"]
+    },
+    {
       "what": "Kitems App",
       "summary": "Published my first Android app",
       "link": "https://play.google.com/store/apps/details?id=com.nk.com.nk.tokitelist",
       "startDate": "2020-10-25",
       "endDate": "2020-11-01",
-      "technologies": ["Kotlin"]
+      "technologies": ["Kotlin","Room"]
     },
     {
       "what": "Sudoku Solver",
