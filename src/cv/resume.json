@@ -31,13 +31,22 @@
   },
   "work": [
     {
+      "company": "STK - Hamburg",
+      "position": "Frontend Dev.",
+      "website": "stk-hamburg.de",
+      "startDate": "2020-12",
+      "endDate": "2030-01",
+      "summary": "Design and implement fresh web-based frontend for legacy software.",
+      "skills": ["Typescript", "Vue", "Html", "CSS", "Lisp", "Vuex", "NodeJS"]
+    },
+    {
       "company": "KLIWAS, Max-Planck-Institut",
       "position": "Research Assistant",
       "website": "https://www.kliwas.de/KLIWAS/EN/01_About_Kliwas/about_kliwas_node.html",
       "startDate": "2010-10",
       "endDate": "2011-06",
       "summary": "Visualization of climate-model output.",
-      "highlights": [       
+      "highlights": [
       ],
       "skills": ["Python", "Bash", "Linux"]
     },
