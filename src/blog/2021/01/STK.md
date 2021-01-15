@@ -14,5 +14,3 @@ Building **this** webpage and watching many webdev tutorials on [frontendmasters
 I am very much looking forward to apply my high standards of clean code and software craftsmanship to this Vue/Typescript project!
 
 I also realized that Vue is so much more fun than React... :)
-
-[comment]: <> (I immediately convinced my employer to switch from Javascript to Typescript and will now build a frontend to an old lisp backend.  )
